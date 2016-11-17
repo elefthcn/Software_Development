@@ -2,8 +2,8 @@
 
 ## Authors
 
-- Author 1:Christina 
-- Author 2: Petros 
+- Author 1:
+- Author 2:
 
 ## Abstract
 
