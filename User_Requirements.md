@@ -1,15 +1,17 @@
 # User Requirements
+## ΧρήστεςΠωλητής, Πελάτης, Διαχειριστής 
 
-## Functional Requirements and User Stories
+## Λειτουργικές Απαιτήσεις:Δηλώσεις που ορίζουν ποιες υπηρεσίες Θα πρέπει να προσφέρει το σύστημα και πώς να αντιδρά σε συγκεκριμένες εισόδους και σε συγκεκριμένες καταστάσεις  
 
-### FR-1
+### ΛΑ-1
 
-Functional requirement sentence
+Ο χρήστης-Πελάτης πρέπει να μπορεί να εισέρχεται στο σύστημα(LogIn) και να εξέρχεται(LogOut)
 
-**Description**
-
+##Περιγραφή:
+Είναι η διαδικασία κατά την οποία ο πελάτης αναγνωρίζεται από το σύστημα σε κάθε επόμενη επίσκεψη του(μετά από την εγγραφή του) και αποτελεί έναν αποτελεσματικό και ασφαλή τρόπο για να τον προσδιορισμό του χρήστη. Η αναγνώριση γίνεται με την εισαγωγή του ονόματος του 
+χρήστη (User Name) και το κωδικού πρόσβασης (Password)
 Describe the FR in more details
-
+ 
 _Note: every requirement/constraint should have at least the following: identifier, user priority, technical difficulty_
 
 #### User story
