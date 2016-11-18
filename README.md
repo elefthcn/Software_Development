@@ -2,8 +2,8 @@
 
 ## Authors
 
-- Author 1:Χριστίνα - Παναγιώτα Ελευθερίου
-- Author 2:Πέτρος Τάνος
+- Author 1: Χριστίνα - Παναγιώτα Ελευθερίου
+- Author 2: Πέτρος Τάνος
 
 ## Abstract
 
@@ -13,4 +13,4 @@
 
 Links to the documents you have created
 
-  1. [Introduction](https://github.com/elefthcn/Software_Development/README.md)
+  1. [Introduction](https://github.com/elefthcn/Software_Development/blob/master/README.md)
