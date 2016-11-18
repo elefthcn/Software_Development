@@ -145,8 +145,3 @@ Put the link to the relevant storyboard.md files that display how one goes from 
 
 Το σύστημα πρέπει να αποθηκεύει τα στοιχεία των πελατών για μελοντικές αγορές 
 
-Functional requirement sentence
-
-**Description**
-
-Describe the FR in more details
