@@ -1,6 +1,6 @@
-Feature: Buy an art painting
-  As a register user
-  So that I can add an art painting to my order
+Feature: Add an art painting
+  As an admin user
+  So that I can pay for an art painting
   I want to receive the painting in my place
 
 Scenario: Buy an art painting
