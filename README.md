@@ -2,15 +2,15 @@
 
 ## Authors
 
-- Author 1:
-- Author 2:
+- Author 1:Χριστίνα - Παναγιώτα Ελευθερίου
+- Author 2:Πέτρος Τάνος
 
 ## Abstract
 
-A summary of your project
+Περιγραφή διαδικτυακού e-shop πώλησης έργων τέχνων με την ονομασία bizart.
 
 ## Table of Contents
 
 Links to the documents you have created
 
-  1. [Introduction](https://github.com/kyrcha/soft-eng-assignment/blob/master/documentation/intro.md)
+  1. [Introduction](https://github.com/elefthcn/Software_Development/edit/master/README.md)
