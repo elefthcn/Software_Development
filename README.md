@@ -13,4 +13,4 @@
 
 Links to the documents you have created
 
-  1. [Introduction](https://github.com/elefthcn/Software_Development/blob/master/README.md)
+  1. [Introduction](https://github.com/elefthcn/Software_Development/blob/master/documentation/intro.md)
