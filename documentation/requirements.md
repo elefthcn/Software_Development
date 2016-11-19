@@ -69,11 +69,14 @@
 
 Το σύστημα πρέπει να εμφανίζει ερωτήσεις και απαντήσεις σχετικές με ένα προϊόν από τους άλλους χρήστες.
 
-#### Identifier:
+* **Περιγραφή:**
 
-#### User Priority:
+* **User Priority ( /5):**
 
-#### technical difficulty:
+* **Technical Priority ( /5):**
+
+* **Stability ( /5) :**
+
 
 ### ΛΑ-5 
 
