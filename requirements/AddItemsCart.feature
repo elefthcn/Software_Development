@@ -1,5 +1,5 @@
 Feature: Add an art painting
-  As an admin user
+  As a customer
   So that I can pay for an art painting
   I want to receive the painting in my place
 
@@ -15,3 +15,4 @@ Scenario: Buy an art painting
   When I press "Payment"
   Then I should be fill my number of credit card
   And I should see the state of my order
+
