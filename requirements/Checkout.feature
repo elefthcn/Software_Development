@@ -3,7 +3,7 @@ Feature: Checkout
   So that I can order items
   I want to process them for a purchase
 
-Scenario: 
+Scenario: Check the price of the ordered items
   Given I am on Home Page
   Given that i am a register user
   When I select "myCart"
