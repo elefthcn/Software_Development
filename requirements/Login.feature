@@ -1,7 +1,15 @@
-Feature: Enter the username and password 
+Feature: login precision
   As a customer 
   So that I can buy a painting
   I want to enter with my personal information in the e-shop 
+  
+  Scenario: Enter the User Name and the Password
+  Given I am on the Bizard home page
+  When i atempt an action that is restricted 
+  Then I should enter my user name and my password
+  When i fill correctly my user name and my password
+  Then i should see a welcome box "Welcome to Bizard"
+  And I attempt the action that was restricted before
 
 Scenario: Invalid Username or Password
   Given I am on the Bizard home page
