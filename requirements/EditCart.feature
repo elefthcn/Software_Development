@@ -1,20 +1,35 @@
-Feature: Enter the username and password 
-  As a customer 
-  So that I can buy a painting
-  I want to enter with my personal information in the e-shop 
+Feature: Edit items in my Cart
+  As a customer
+  So that I can order items
+  I want to edit items in my Cart
 
-Scenario: Invalid Username or Password
-  Given I am on the Bizard home page
-  Given i am a register user
-  When i select "logIn"
-  Then I should fill my user name and my password
-  When i fill incorrectly my user name and my password
-  Then i should see a warning box "Invalid Password or User Name"
-  Then i should see the option box: "Forget your Password"
-  And I select the option box: "Forget your Password"
-  Then i should fill my e-mail adress 
-  And recieve a new password through my e-mail
-  Then i go back to the logIn 
-  Then i fill my username and my new password
-  And i should see that i am recognized us a register user 
+Scenario: Delete specific item from my Cart
+  Given I am on Home Page
+  When I select "myCart"
+  Then I should see the details of my order
+  When I choose "delete specific item"
+  Then I should see item was deleted from my Cart
+  Then I should see the new price of remaining items 
   
+Scenario: Delete all items from my Cart  
+  Given I am on Home Page
+  When I select "myCart"
+  And I select "Delete all items"
+  Then i should see myCart empty of items
+
+Scenario: Insert invalid number of quantity of items  
+  Given I am on Home Page
+  When I select "myCart"
+  Then I should see the details of my order
+  When I select "change quantity" of ordering items
+  And I insert invalid number
+  Then I should see warning message
+  And I can insert number again
+
+Scenario: Edit the quantity of items  
+  Given I am on Home Page
+  When I select "myCart"
+  And I should see the details of my ordering items
+  And I select "Change the quantity"
+  Then I should see the new quantity
+  And I should see the new price of my order
