@@ -9,5 +9,5 @@ Scenario: See details of current state of order
   Given that i am an authorized user
   Given that i am logged in
   When I select "My Profile"
-  And I select "My Orders"
+  And I select "My Shipping Orders"
   Then I should see the current state of my order
