@@ -3,7 +3,7 @@ Feature: Edit personal details
   So that I can handle my personal information
   I want to edit my uploaded details
 
-Scenario: Edit personal information of user's page
+Scenario: Edit personal information
   Given I am on Home Page
   Given I am a register user
   Given I am logged in
@@ -15,7 +15,7 @@ Scenario: Edit personal information of user's page
   Then I should see a succeed message
   And changes must be done
   
-Scenario: Failed edit personal information of user's page
+Scenario: Insert invalid personal information
   Given I am on Home Page
   Given I am a register user
   Given I am logged in
