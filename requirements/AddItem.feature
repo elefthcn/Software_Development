@@ -1,5 +1,5 @@
 Feature: Add Item
-  As an Artist
+  As an Artist-Seller
   So that I can sell my painting
   I want to customers to buy my painting  
 
