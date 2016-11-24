@@ -5,7 +5,7 @@ Feature: Delete Users
 
 Scenario: Delete users from the database of the e-shop
   Given I am on Home Page
-  Given that i am a main admin user
+  Given I am a main admin user
   When I select "Main admin Page"
   Then I should see the details of all users
   When I choose "Delete"
