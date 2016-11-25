@@ -31,3 +31,16 @@ Scenario: Pay with Paypal
   Then i fill the name and the number of the paypal
   And I should be able to pay via paypal 
   
+  Scenario: Pay for order less or more money
+  Given I am on Home Page
+  Given I am a register user
+  Given I am logged in
+  When I select "My Cart"
+  Then I should see the products for purchase
+  When I choose "Proceed to Checkout"
+  Then I should pay for my order
+	When I submit a wrong payment for an order 
+	Then I should see a notification message "wrong amount"
+	And I should be retype the correct amount of money 
+	And I should be prompted to view the order
+  
