@@ -328,7 +328,7 @@ Diagrams*) περιγράφουν τις λειτουργικές απαιτήσ
 
 
 
-![Screenshot](UML.png)
+![Screenshot](UML_UseCase.png)
 
 ## Μοντελοποίηση Απαιτήσεων Χρηστών
 
