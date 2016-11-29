@@ -3,7 +3,7 @@ Feature: Registration
   So that the system recognize me
   I want to create my account
 
-Scenario: Add a new painting
+Scenario: Add a new user's account
   Given I am on Home Page
   When I select "Log In"
   Then I choose "Create New Account"
