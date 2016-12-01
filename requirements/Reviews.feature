@@ -3,7 +3,7 @@ Feature: Reviews
   So that I can help other costumers
   I want to express my opinion about the e-shop
 
-Scenario: Customer Reviews
+Scenario: Customer Review 
   Given I am on Home Page
   Given I am a register user
   Given I am logged in
@@ -14,6 +14,11 @@ Scenario: Customer Reviews
   Then I select "Customer Reviews"
   And  I should see this specific comment published among other comments
   
- 
+ Scenario: Check Customer Reviews for the e-shop service
+  Given I am on Home Page
+  When i select Customer Reviews 
+  Then I should see the option "Customer Reviews about Bizard"
+  And i should be able to see the comments for the Bizard e-shop
+
 
   
