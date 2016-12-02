@@ -39,8 +39,10 @@ Scenario: Pay with Paypal
   Then I should see the products for purchase
   When I choose "Proceed to Checkout"
   Then I should pay for my order
-	When I submit a wrong payment for an order 
-	Then I should see a notification message "wrong amount"
-	And I should be retype the correct amount of money 
-	And I should be prompted to view the order
+  When I submit a wrong payment for an order 
+  Then I should see a notification message "wrong amount"
+  And I should be retype the correct amount of money 
+  And I should be prompted to view the order
+ 
+ 
   
