@@ -27,3 +27,12 @@ Scenario: Insert invalid personal information
   Then I should see a warning message
   Then I should return to My Profile Page
   And changes must not be done
+  
+Scenario: Change my Address
+  Given I am on Home Page
+  Given I am a register user
+  Given I am logged in
+  When I select "My profile"
+  When I select my address
+  Then I should change the address 
+  And I should see the new address
