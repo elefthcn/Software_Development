@@ -10,16 +10,16 @@ Scenario: Quantity of sales
   When I select "My profile"
   And I select "My paintings"
   Then I should see the quantity of my items which have been purchased
-  And the region of custorers
+  And the region of customers
 
-Scenario: Make a discount offer to the best custumer
+Scenario: Make a discount offer to the best customer
   Given I am on Home Page
-  Given that i am an authorized saler-user
+  Given that I am an authorized saler-user
   Given I am logged in 
   When I select "My profile"
-  And I select "My paintings"
-  Then I should see the remaing and the sold painting
-  When I select "Sold Paintings"
-  Then I can see the details of the sold paintings 
+  And I select "My Items"
+  Then I should see the remaing and the sold items
+  When I select "Sold Items"
+  Then I can see the details of the sold items 
   Then I can search for my best customer  
-  And i can make a discount offer only for him
+  And I can make a discount offer
