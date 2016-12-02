@@ -17,8 +17,6 @@ Scenario: Customer Review
  Scenario: Check Customer Reviews for the e-shop service
   Given I am on Home Page
   When i select Customer Reviews 
-  Then I should see the option "Customer Reviews about Bizard"
-  And i should be able to see the comments for the Bizard e-shop
-
-
+  Then I should see the option "Customer Reviews about e-shop"
+  And i should be able to see the comments for the e-shop
   
