@@ -12,7 +12,6 @@ Scenario: Add an item
   When I select "My Cart"
   Then I should view the selected items
   
-  
 Scenario: Update the shopping cart
   Given I am on Home Page
   When I select "My Cart"
