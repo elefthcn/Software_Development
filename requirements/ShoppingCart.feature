@@ -5,22 +5,22 @@ Feature: Shopping cart
 
 Scenario: Add an art painting
   Given I am on home page
-  Given i am logged in
+  Given I am logged in
   When I select one of main category
   And I select one of subcategory
   And I select specific painting
   Then I should be add the painting in my cart
-  When I select "My Shopping Cart"
-  And i should view the items for purchase
+  When I select "My Cart"
+  And I should view the selected items
   
 Scenario: Remove an art painting 
   Given I am on home page
-  Given i am logged in
+  Given I am logged in
   When I select "My Cart"
   And I select a specific painting from the cart
-  And i select "Remove"
+  And I select "Remove"
   Then I should be able to remove the painting
-  And i should view the remaining items for purchase
+  And I should view the remaining items for purchase
   
   
 Scenario: Update the shopping cart
@@ -36,9 +36,9 @@ Scenario: View recommended paintings
   Given I am on Home Page
   Given I am a register user
   Given I am logged in
-  When i select "My Cart"
-  Then i should see all the paintings for purchace
-  And i should see the recommended paintings
+  When I select "My Cart"
+  Then I should see all the paintings for purchace
+  And I should see the recommended paintings
  
  Scenario: Add to Wish List
   Given I am on Home Page
