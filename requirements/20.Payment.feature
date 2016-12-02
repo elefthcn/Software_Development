@@ -1,7 +1,7 @@
 Feature: Pay for my products
   As a customer
   So that I can buy the products
-  I want to transfer money to the Bizart bank account
+  I want to transfer money to the e-shop bank account
 
 Scenario: Pay with Credit Card
   Given I am on Home Page
@@ -11,10 +11,10 @@ Scenario: Pay with Credit Card
   Then I should see the products for purchase
   When I choose "Proceed to Checkout"
   Then I should see the Payment Settings
-  When I selet "Payment"
+  When I select "Payment"
   Then I should see the Payment options
-  When i select Credit Card
-  Then i fill the name and the number of my credit card
+  When I select Credit Card
+  Then I fill the name and the number of my credit card
   And I should be able to pay with my credit card
   
 Scenario: Pay with Paypal
@@ -27,11 +27,11 @@ Scenario: Pay with Paypal
   Then I should see the Payment Settings
   When I selet "Payment"
   Then I should see the Payment options
-  When i select Paypal
-  Then i fill the name and the number of the paypal
+  When I select Paypal
+  Then I fill the name and the number of the paypal
   And I should be able to pay via paypal 
   
-  Scenario: Pay for order less or more money
+  Scenario: Invalid Pay for order
   Given I am on Home Page
   Given I am a register user
   Given I am logged in
@@ -39,10 +39,10 @@ Scenario: Pay with Paypal
   Then I should see the products for purchase
   When I choose "Proceed to Checkout"
   Then I should pay for my order
-  When I submit a wrong payment for an order 
-  Then I should see a notification message "wrong amount"
-  And I should be retype the correct amount of money 
-  And I should be prompted to view the order
- 
- 
+  When I select Credit Card 
+  Then I submit the name and the number of my credit card
+  When I insert invalid information
+  Then I should see a warning message
+  And payment not be done
+  
   
