@@ -1,5 +1,5 @@
 Feature: Edit personal details
-  As a user
+  As a customer
   So that I can handle my personal information
   I want to edit my uploaded details
 
@@ -12,7 +12,7 @@ Scenario: Edit personal information
   When I choose "Edit"
   Then I should edit my personal information
   When I choose "Confirm"
-  Then I should see a succeed message
+  Then I should see a succeful message
   And changes must be done
   
 Scenario: Insert invalid personal information
