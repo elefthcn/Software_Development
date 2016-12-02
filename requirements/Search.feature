@@ -18,8 +18,18 @@ Scenario: Search a specific artist
   Given I am a register user
   Given I am logged in
   When I select "Products"
-  Then I should see the car search
+  Then I should see the bar search
   When I type the name of specific artist
   Then I should see all the paintings of that artist
-  And I should be able to search amond the paintings of thiw artist
+  And I should be able to search amond the paintings of this artist
+  
+ Scenario: Search a specific subject of a painting 
+  Given I am on Home Page
+  Given I am a register user
+  Given I am logged in
+  When I select "Products"
+  Then I should see the bar search
+  When I type the subject of the painting
+  Then I should see all the paintings illustrating this subject
+  And I should be able to search amond these paintings
   
