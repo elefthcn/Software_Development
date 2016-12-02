@@ -11,5 +11,5 @@ Scenario: Delete users from the database of the e-shop
   When I choose "Delete"
   Then I should see a warning message to continue
   When I choose "Confirm"
-  Then I should see suceed message
+  Then I should see succeful message
   And user must be deleted from the database
