@@ -28,9 +28,9 @@ Scenario: Update the shopping cart
   Given that i am logged in
   When I select "My Cart"
   Then I should see the details of my order
-  When i add or remove an item in my cart
-  Then i should be able to update my shopping cart
-  And i should see my update shopping cart
+  When I add an item in my cart
+  Then I should be able to update my shopping cart
+  And I should see my update shopping cart
   
 Scenario: View recommended paintings
   Given I am on Home Page
