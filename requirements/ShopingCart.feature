@@ -32,4 +32,22 @@ Scenario: Update the shopping cart
   Then i should be able to update my shopping cart
   And i should see my update shopping cart
   
-
+Scenario: View recommended paintings
+  Given I am on Home Page
+  Given I am a register user
+  Given I am logged in
+  When i select "Products"
+  Then i should see all the paintings
+  When I select a specific painting
+  Then I should see the details of the painting
+  And i should see the recommended paintings
+ 
+ Scenario: Add to Wish List
+  Given I am on Home Page
+  Given I am a register user
+  Given I am logged in
+  When i select "Products"
+  Then i should see all the paintings in a list form
+  When i select a specif painting 
+  Then i should see the option "Add to Wish List"
+  And i should be able to save that painting for future purchase
