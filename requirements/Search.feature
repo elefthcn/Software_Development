@@ -33,3 +33,14 @@ Scenario: Search a specific artist
   Then I should see all the paintings illustrating this subject
   And I should be able to search amond these paintings
   
+  
+  Scenario: Search with price criteria
+  Given I am on Home Page
+  Given I am a register user
+  Given I am logged in
+  When I select "Price"
+  Then I should be able to fix the boundaries of the price 
+  When I apply the price filter
+  Then I should see all the paintings charged in that area of price
+  And I should be able to search these paintings
+  
