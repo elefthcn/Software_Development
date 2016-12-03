@@ -365,6 +365,13 @@ Representation of all users and user stories/use cases
 ![Screenshot](UML-Diagrams/Uml_Activity3.png)
 
 
+* 4) Διαγράμμα Δραστηριοτήτων κατά το οποίο υλοποιείται η διαδικασία αναζήτησης ενός πίνακα. Επισημαίνεται ότι η διαδικασία εισόδου δεν είναι υποχρεωτική για την εκτέλεση αυτής της δραστηριότητας, συνεπώς δεν συμπεριλαμβάνεται στο παρακάτω διάγραμμα.
+
+![Screenshot](UML-Diagrams/Uml_Activity5.png)
+
+
+
+
 
 
 
