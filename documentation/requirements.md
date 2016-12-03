@@ -345,7 +345,7 @@ Representation of all users and user stories/use cases
 
 Παρακάτω δίνονται πέντε διαγράμματα δραστηριοτήτων:
 
-![Screenshot](UML-Diagrams/uml_Activity_2.png)
+![Screenshot](UML-Diagrams/Uml_Activity_2.png)
 
 Το συγκεκριμένο διάγραμμα απεικονίζει την διαδικασία δημιουργίας λογαριασμού χρήστη.
 
