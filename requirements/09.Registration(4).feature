@@ -33,3 +33,13 @@ Scenario: Invalid password
   When I choose to insert invalid password
   Then I should see warning message
   And my personal account not be created
+  
+Scenario: Username already existed
+  Given I am on Home Page
+  When I select "Log In"
+  Then I choose "Create New Account"
+  Then Ι should fill a form with my personal information
+  When I select "Submit"
+  And selected username already existed
+  Then I should see warning message
+  And my personal account not be created
