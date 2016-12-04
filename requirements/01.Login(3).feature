@@ -3,7 +3,7 @@ Feature: login precision
   So that I can have permission in e-shop
   I want to enter with my personal information in the e-shop 
   
-  Scenario: Enter the User Name and the Password
+Scenario: Enter the User Name and the Password
   Given I am on home page
   When I attempt an action that is restricted 
   Then I should enter my user name and my password
