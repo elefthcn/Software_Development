@@ -5,14 +5,14 @@ Feature: Checkout
 
 Scenario: Logout
   Given I am on e-shop site
-  Given i am logged in
+  Given I am logged in
   When I select the option "Log Out"
   Then I should be logged out by the system
   And I am not logged in the system anymore
 
 Scenario: Automatically Logout
   Given I am on e-shop site
-  Given i am logged in
+  Given I am logged in
   When i am inactive for more then 5 minutes
   Then I should be logged out by the system
   And I am not logged in the system anymore
