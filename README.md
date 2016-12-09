@@ -15,5 +15,5 @@
   2. [User Requirement Specification](https://github.com/elefthcn/Software_Development/blob/master/documentation/requirements.md)
   3. [Features](https://github.com/elefthcn/Software_Development/tree/master/requirements)
   4. [UML Diagrams](https://github.com/elefthcn/Software_Development/blob/master/documentation/UML-Diagrams)
-  5. [Mockups](https://github.com/elefthcn/Software_Development/blob/master/documentation/Mockups)
+  5. [Mockups](https://github.com/elefthcn/Software_Development/blob/master/documentation/Mocups)
   6. [StoryBoards](https://github.com/elefthcn/Software_Development/blob/master/documentation/demo-storyboard.md)
