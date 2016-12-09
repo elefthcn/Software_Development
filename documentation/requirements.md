@@ -372,12 +372,19 @@ Representation of all users and user stories/use cases
 
 
 
+## Mockups:
+ 
 
-
-
-## Mockups and Storyboards
-
-Put the link to the relevant storyboard.md files that display how one goes from one mockup to another.
+1) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/HomePage.png
+2) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Sing%20Up.png
+3) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/LogIn.png
+4) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/ForgetPassword.png
+5) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/SuccessLogin.png
+6) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/ShoppingCart.png
+7) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/CheckOut.png
+8) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Zoom-FullScreen.png
+9) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Comments.png
+10) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/DetailsPainting.png
 
 ## Μη Λειτουργικές Απαιτήσεις:
 
