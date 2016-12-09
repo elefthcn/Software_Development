@@ -374,16 +374,29 @@ Representation of all users and user stories/use cases
 
 ## Mockups:
  
+Αε αυτήν την ενότητα παρουάζονται τα mockups τα οποία παρέχουν όλη την πληροφορία για το πώς θα μοιάζει το *Urdan Picasso E-shop*. Μέσα από τη δημιουργία του mockup δίνονται σημαντικές πληροφορίες, όπως είναι η χρωματική παλέτα, οι γραμματοσειρές και η γενικότερη αισθητική. Παρακάτω παρατίθονται τα mockups με τα αντίστοιχα link.
 
-1) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/HomePage.png
-2) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Sing%20Up.png
-3) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/LogIn.png
+1) Κεντρική Ιστοσελίδα του *Urdan Picasso*:
+ https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/HomePage.png
+
+2) Η σελίδα εγγραφής νέου χρήστη:
+ https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Sing%20Up.png
+
+3) Η σελίδα εισόδου σε λογαριασμό χρήστη: 
+ https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/LogIn.png
+
 4) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/ForgetPassword.png
+
 5) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/SuccessLogin.png
+
 6) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/ShoppingCart.png
+
 7) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/CheckOut.png
+
 8) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Zoom-FullScreen.png
+
 9) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Comments.png
+
 10) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/DetailsPainting.png
 
 ## Μη Λειτουργικές Απαιτήσεις:
