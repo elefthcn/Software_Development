@@ -347,27 +347,27 @@ Representation of all users and user stories/use cases
 
 * 1) Διάγραμμα Δραστηριοτήτων στο οποίο απεικονίζεται η διαδικασία δημιουργίας λογαριασμού χρήστη.
 
-![Screenshot](UML-Diagrams/Uml_Activity1.png)
+![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity1.png)
 
 
 * 2) Διαγράμμα Δραστηριοτήτων κατά το οποίο υλοποιείται η είσοδος ενός χρήστη στο Bizart e-shop.
 
-![Screenshot](UML-Diagrams/Uml_Activity4.png)
+![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity4.png)
 
 
 * 3) Διάγραμμα Δραστηριοτήτων στο οποίο παρουσιάζονται τα επιµέρους βήµατα που εκτελούνται για την αγορά ενός πίνακα από πελάτες.
 
-![Screenshot](UML-Diagrams/Uml_Activity2.png)
+![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity2.png)
 
 
 * 4) Διαγράμμα Δραστηριοτήτων στο οποίο απεικονίζεται η διαδικασία αξιολόγησης του προϊόντος ή του e-shop γενικότερα. Αξίζει να σημειωθεί ότι σε σξιολόγηση μπορούν να προβούν μόνο οι χρήστες που είναι εγγεγραμένοι, συνεπώς στο συγκεκριμένο διάγραμμα θεωρούμε δεδομένη την ύπαρξη λογαριασμού χρήστη.
 
-![Screenshot](UML-Diagrams/Uml_Activity3.png)
+![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity3.png)
 
 
 * 4) Διαγράμμα Δραστηριοτήτων κατά το οποίο υλοποιείται η διαδικασία αναζήτησης ενός πίνακα. Επισημαίνεται ότι η διαδικασία εισόδου δεν είναι υποχρεωτική για την εκτέλεση αυτής της δραστηριότητας, συνεπώς δεν συμπεριλαμβάνεται στο παρακάτω διάγραμμα.
 
-![Screenshot](UML-Diagrams/Uml_Activity5.png)
+![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity5.png)
 
 
 
