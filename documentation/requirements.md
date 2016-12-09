@@ -377,27 +377,44 @@ Representation of all users and user stories/use cases
 Αε αυτήν την ενότητα παρουάζονται τα mockups τα οποία παρέχουν όλη την πληροφορία για το πώς θα μοιάζει το *Urdan Picasso E-shop*. Μέσα από τη δημιουργία του mockup δίνονται σημαντικές πληροφορίες, όπως είναι η χρωματική παλέτα, οι γραμματοσειρές και η γενικότερη αισθητική. Παρακάτω παρατίθονται τα mockups με τα αντίστοιχα link.
 
 1) Κεντρική Ιστοσελίδα του *Urdan Picasso*:
+
  https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/HomePage.png
 
 2) Η σελίδα εγγραφής νέου χρήστη:
+
  https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Sing%20Up.png
 
 3) Η σελίδα εισόδου σε λογαριασμό χρήστη: 
+
  https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/LogIn.png
 
-4) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/ForgetPassword.png
+4) Αλλαγή Κωδικού:
 
-5) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/SuccessLogin.png
+ https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/ForgetPassword.png
 
-6) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/ShoppingCart.png
+5) Επιτυχής Σύνδεση σε Λογαριασμό:
 
-7) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/CheckOut.png
+ https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/SuccessLogin.png
 
-8) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Zoom-FullScreen.png
+6) Το καλάθι αγορών:
 
-9) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Comments.png
+ https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/ShoppingCart.png
 
-10) https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/DetailsPainting.png
+7) Διαδικασία συμπλήρψσης στοιχείων για την ολοκλήρωση του Checkout:
+
+ https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/CheckOut.png
+
+8) Προβολή πίνακα σε πλήρη οθόνη:
+
+ https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Zoom-FullScreen.png
+
+9) Σχόλια Πελατών:
+
+ https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Comments.png
+
+10) Λεπτομέριες ενός πίνακα:
+
+ https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/DetailsPainting.png
 
 ## Μη Λειτουργικές Απαιτήσεις:
 
