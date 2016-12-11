@@ -4,8 +4,7 @@ Feature: Zoom in the picture of an item
   I want to be able to have a picture of the product, to zoom in to see all the details
 
 Scenario: Zoom in a picture
-  Given I am on Home Page
-  Given I found the product of interest
+  Given I found the product of my interest
   Then I should see the details information about this product
   When I select the picture of the item
   Then I should see the option zoom in and zoom out
