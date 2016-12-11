@@ -4,8 +4,7 @@ Feature: Contact
   I want to have the option to sent directly an e-mail
 
 Scenario: Costumer questions about the procedure
-  Given I am on Home Page
-  Given that I am logged in
+  Given I am logged in
   When I select "Contact Us"
   Then I should see the contact form
   When I select to fill my email and my message
@@ -13,8 +12,7 @@ Scenario: Costumer questions about the procedure
   And message must be sent to administrators
 
 Scenario: Invalid email
-  Given I am on Home Page
-  Given that I am logged in
+  Given I am logged in
   When I select "Contact Us"
   Then I should see the contact form
   When I insert invalid email
@@ -22,8 +20,7 @@ Scenario: Invalid email
   And message must not be sent to administrators
 
 Scenario: Invalid characters in message
-  Given I am on Home Page
-  Given that I am logged in
+  Given I am logged in
   When I select "Contact Us"
   Then I should see the contact form
   When I insert invalid character in message
