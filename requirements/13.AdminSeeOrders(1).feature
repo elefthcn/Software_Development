@@ -4,9 +4,7 @@ Feature: See all orders of the e-shop
   I want to permission in all orders which have done
   
 Scenario: Permission to sort all orders
-  Given I am on home page
-  Given I am authorized admin user
-  Given I am logged in
+  Given I am logged in as admin user
   When I select "Admin Page"
-  When I select "All orders"
+  And I select "All orders"
   Then I should see all orders of the customers
