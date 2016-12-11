@@ -5,26 +5,18 @@ Feature: Check the state of the order
   I want to check the state of my order 
 
 Scenario: See details of current state of order
-  Given I am on Home Page
-  Given that I am a register user
-  Given that I am logged in
+  Given I am logged in
   When I select "My Profile"
   And I select "My Shipping Orders"
   Then I should see the current state of my order
   
 Scenario: Contact with the Courier Company
-  Given I am on Home Page
-  Given that I am a register user
-  Given that I am logged in
-  When I select "My Profile"
-  And I select "My Shipping Orders"
+  Given I am logged in
+  When I select "My Shipping Orders" 
   Then I should see the current state of my order
-  And I should see the Courier Company
-  And I should see the contant details of Courier Company
-  When I select "Contact"
+  When I select "Contact of Courier Company"
   Then I should see a contact form
-  When I select insert my email and message
-  And I select "Submit"
-  Then I should see a succeful message
+  When I inserted valid email and message
+  Then I should see a successful message
   And message must be sent
   
