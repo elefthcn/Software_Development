@@ -35,9 +35,9 @@
 
 * **Περιγραφή:** Είναι η διαδικασία κατά την οποία ο χρήστης αποσυνδέεται από το σύστημα εφόσον έχει πραγματοποιηθεί η διαδικασία εισόδου.
 
-* **User Priority: (5/5)** Η διαδικασία ειξοδου είναι ουσίωδης για το χρήστη καθώς οποιαδήποτε στιγμή μπορεί να αποσυνδεθεί από το e-shop και συνεχίσει την περιηγήση του ως ανώνυμος πελάτης.
+* **User Priority: (5/5)** Η διαδικασία εξόδου είναι ουσίωδης για το χρήστη καθώς οποιαδήποτε στιγμή μπορεί να αποσυνδεθεί από το e-shop και συνεχίσει την περιηγήση του ως ανώνυμος πελάτης.
 
-* **Technical Priority: (4/5)** Οι διαδικασία ειξόδου αποτελούν αναπόσπαστο κομμάτι της σωστής και ασφαλής λειτουργίας του συστήματος. 
+* **Technical Priority: (4/5)** Η διαδικασία εξόδου αποτελούν αναπόσπαστο κομμάτι της σωστής και ασφαλής λειτουργίας του συστήματος. 
 
 * **Stability: (3/5)** Αντίστοιχα με την διαδικασία εισόδου, η διαδικασία εξόδου ενδέχεται να αλλάξει, καθώς είναι δυνατό να προστεθεί μελλοντικά η είσοδος στο σύστημα μέσω λογαριασμών σε κοινωνικά μέσα δικτύωσης (Facebook, Google+ και άλλα) συνεπώς και η έξοδος τους από αυτά.
 
@@ -350,7 +350,7 @@ Representation of all users and user stories/use cases
 ![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity1.png)
 
 
-* 2) Διαγράμμα Δραστηριοτήτων κατά το οποίο υλοποιείται η είσοδος ενός χρήστη στο Bizart e-shop.
+* 2) Διαγράμμα Δραστηριοτήτων κατά το οποίο υλοποιείται η είσοδος ενός χρήστη στο e-shop.
 
 ![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity4.png)
 
@@ -370,13 +370,11 @@ Representation of all users and user stories/use cases
 ![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity5.png)
 
 
-
-
 ## Mockups:
  
-Αε αυτήν την ενότητα παρουάζονται τα mockups τα οποία παρέχουν όλη την πληροφορία για το πώς θα μοιάζει το *Urdan Picasso E-shop*. Μέσα από τη δημιουργία του mockup δίνονται σημαντικές πληροφορίες, όπως είναι η χρωματική παλέτα, οι γραμματοσειρές και η γενικότερη αισθητική. Παρακάτω παρατίθονται τα mockups με τα αντίστοιχα link.
+Σε αυτήν την ενότητα παρουσιάζονται τα Mockups τα οποία παρέχουν όλη την πληροφορία για το πώς θα μοιάζει το *Urban Picasso* E-shop. Μέσα από τη δημιουργία του mockup δίνονται σημαντικές πληροφορίες, όπως είναι η χρωματική παλέτα, οι γραμματοσειρές και η γενικότερη αισθητική. Παρακάτω παρατίθονται τα mockups με τα αντίστοιχα link.
 
-1) Κεντρική Ιστοσελίδα του *Urdan Picasso*:
+1) Κεντρική Ιστοσελίδα του *Urban Picasso*:
 
  https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/HomePage.png
 
@@ -400,7 +398,7 @@ Representation of all users and user stories/use cases
 
  https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/ShoppingCart.png
 
-7) Διαδικασία συμπλήρψσης στοιχείων για την ολοκλήρωση του Checkout:
+7) Διαδικασία συμπλήρωσης στοιχείων για την ολοκλήρωση του Checkout:
 
  https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/CheckOut.png
 
@@ -412,7 +410,7 @@ Representation of all users and user stories/use cases
 
  https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/Comments.png
 
-10) Λεπτομέριες ενός πίνακα:
+10) Λεπτομέρειες ενός πίνακα:
 
  https://github.com/elefthcn/soft-eng-assignment1/blob/master/documentation/Mockups/DetailsPainting.png
 
@@ -422,7 +420,7 @@ Representation of all users and user stories/use cases
 λειτουργίες που παρέχονται από το συστήμα. Στις πιο πολλές περιπτώσεις οι µη λειτουργικές απαιτήσεις είναι βασικές αφού η µη ικανοποίηση 
 αυτών αχρηστεύει το σύστηµα. Πιο συγκεκριμένα αποτελόυν τους περιορισμούς στις υπηρεσίες ή τις λειτουργίες που προσφέρει το συστήμα, όπως χρονικοί περιορισμοί, περιορισμοό στην διαδικασία ανάπτυξης, αποδοτικότητα, πρότυπα, την απόδοση, την νομιμότητα και την ιδιωτικότητα κτλ. Οι μη λειτουργικές απαιτήσεις πρέπει να είναι μετρήσιμες. 
 
-Παρακάτω παρπυσιάζονται ορισμένες από τις μη λειτουργικές απαιτήσεις του e-shop.
+Παρακάτω παρπουσιάζονται ορισμένες από τις μη λειτουργικές απαιτήσεις του e-shop.
  
 ### ΜΛΑ-1
 
