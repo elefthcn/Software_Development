@@ -5,10 +5,8 @@ Feature: Items Details
 
 Scenario: Check Item Specifications
   Given I am on the home page
-  When I select one of the main categoty
-  And I select one of subcategory
-  And I select specific item
-  Then I should be able to view the Item details
+  When I select one specific item
+  Then I should be able to view the item details
   When I select "Details"
   Then I should see the key features and the specifications of the item
   When I select "Specification"
