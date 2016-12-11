@@ -4,19 +4,15 @@ Feature: Reviews
   I want to express my opinion about the items
 
 Scenario: Customer Review 
-  Given I am on Home Page
-  Given I am a register user
   Given I am logged in
   When I select "My Orders"
-  Then I should see the orders that i make in the past
+  Then I should see the orders that i made in the past
   When I select one specific order
   Then I should be able to add a comment for the specific item
   Then I select "Customer Reviews"
   And  I should see this specific comment published among other comments
   
 Scenario: Invalid Review 
-  Given I am on Home Page
-  Given I am a register user
   Given I am logged in
   When I select "My Orders"
   And I select one specific order
