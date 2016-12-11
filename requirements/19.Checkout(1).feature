@@ -8,6 +8,6 @@ Scenario: Shipping of the ordered items
   When I select "Appended Orders"
   Then I should see the details of the order
   When I choose "Shipping"
-  Then I should see a succeful message
+  Then I should see a successful message
   And items must be shipped to customer
   
