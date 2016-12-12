@@ -1,5 +1,5 @@
 # Full Screen Of a Painting
 
-![GitHub Logo](/Storyboards/Storyboard_FullScreen.png)
+![GitHub Logo](/documentation/Storyboards/Storyboard_FullScreen.png)
 
 ***
