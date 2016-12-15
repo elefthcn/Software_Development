@@ -29,7 +29,7 @@
 
 * **Stability: (3/5)** Η συγκεκριμένη λειτουργική απαίτηση θα πρέπει να λαμβάνει υπόψιν ότι η διαδικασία αυθεντικοποίησης των χρηστών ενδέχεται να αλλάξει, καθώς είναι δυνατό να προστεθεί μελλοντικά η είσοδος στο σύστημα μέσω λογαριασμών σε κοινωνικά μέσα δικτύωσης (Facebook, Google+ και άλλα).
 
-* **User story: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/01.Login(3).feature
+* **User story**: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/01.Login(3).feature
 
 ### ΛΑ-2
 
@@ -43,7 +43,7 @@
 
 * **Stability: (3/5)** Αντίστοιχα με την διαδικασία εισόδου, η διαδικασία εξόδου ενδέχεται να αλλάξει, καθώς είναι δυνατό να προστεθεί μελλοντικά η είσοδος στο σύστημα μέσω λογαριασμών σε κοινωνικά μέσα δικτύωσης (Facebook, Google+ και άλλα) συνεπώς και η έξοδος τους από αυτά.
 
-* **User story: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/02.Logout(2).Feature
+* **User story**: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/02.Logout(2).Feature
 
 ### ΛΑ-3
 
@@ -57,7 +57,7 @@
 
 * **Stability(4/5):** Είναι απαραίτητη η οπτική ένδειξη του καλαθιού αγορών. Η ένδειξη της λίστας των έργων τέχνης που έχουν επιλεχθεί θα εμφανίζεται με συγκεκριμένο τρόπο, ο οποίος όμως είναι δυνατό να τροποποιηθεί μελλοντικά με την πιθανή ανάπτυξη συνεργασιών με άλλα eshops (eBay, skroutz.gr και άλλα). 
 
-* **User story: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/03.ShoppingCart(4).feature
+* **User story**: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/03.ShoppingCart(4).feature
 ### ΛΑ-4
 
 Το σύστημα πρέπει να δείχνει σε όλους τους χρήστες τη διαθεσιμότητα των προϊόντων.
@@ -70,7 +70,7 @@
 
 * **Stability (3/5) :** Η συγκεκριμένη λειτουργική απαίτηση είναι αναπόσπαστο μέρος του συστήματος και θα πρέπει να ληφθεί υπόψιν η μελλοντική σύνδεση του συστήματος με εξωτερική βάση δεδομένων νέων προμηθευτών ή νέων συνεργατών.
 
-* **User story: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/04.Availability(2).feature
+* **User story**: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/04.Availability(2).feature
 
 ### ΛΑ-5
 Ο πελάτης μετά την παραλαβή των προϊόντων προχωρά στην αξιολόγηση τους. 
@@ -83,7 +83,7 @@
 
 * **Stability (3/5) :** Υπάρχουν διάφορα συστήματα αξιολόγησης προϊόντων-υπηρεσιών, συνεπώς η αξιολόγηση θα μπορούσε να γίνει είτε μέσα από πλατφόρμες οι οποίες συνδέονται με μηχανές σύγκρισης τιμών (βλέπε π.χ. skroutz.gr), είτε από αυτο-προγραμματιζόμενα συστήματα (ο διαχειριστής της υπηρεσίας επιλέγει τις αξιολογήσεις που θα δημοσιευθούν).
 
-* **User story: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/05.Reviews(3).feature
+* **User story**: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/05.Reviews(3).feature
 
 ### ΛΑ-6
 
@@ -97,7 +97,7 @@
 
 * **Stability(3/5):**Γενικότερα ο τρόπος αναζήτησης των προϊόντων συνεχώς μεταβάλλεται. Αρχικά η αναζήτηση διεξάγονταν μόνο μέσα από συγκεκριμένες κατηγορίες, στη συνέχεια προτάθηκαν μέθοδοι όπως η γρήγορη αναζήτηση (ο πελάτης δίνει ένα όρισμα την φορά) και η απλή αναζήτηση που χρησιμοποιούμε στο σύστημα μας. Θα μπορούσε ο χρήστης να συμπληρώνει και άλλα πεδία ή να χρησιμοποιεί και λογικούς τελεστές (πχ AND, OR, NOT κτλ.), όπως γίνεται σε μία σύνθετη αναζήτηση με την μορφή φίλτρων αναζήτησης. 
 
-* **User story: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/06.Search(4).feature
+* **User story**: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/06.Search(4).feature
 
 ### ΛΑ-7
 
@@ -111,7 +111,7 @@
 
 * **Stability (3/5) :** Η λειτουργία μεγέθυνσης μπορεί να ενσωματωθεί και σε άλλες λειτουργίες όπως η 3D απεικόνιση ενός έργου ή ακόμη και σε επιλογές εμφάνισης ανάλογα με το χρώμα του τοίχου που θα τοποθετηθεί ο πίνακας.  
 
-* **User story: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/07.Zoom(1).feature
+* **User story**: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/07.Zoom(1).feature
 
 ### ΛΑ-8
 
@@ -125,7 +125,7 @@
 
 * **Stability ( 3/5) :** Σε κάθε έργο αντιστοιχεί μία γραπτή περιγραφή των λεπτομερειών. Στο σύστημα μας οι λεπτομέρειες αναγράφονται πάνω και δεξιά από την φωτογραφία του πίνακα, παρόλα αυτά υπάρχουν αρκετές εναλλακτικές τόσο στην τοποθεσία της περιγραφής, όσο και στα χαρακτηριστικά που θα περιλαμβάνει.
 
-* **User story: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/08.Items_Details(1).feature
+* **User story**: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/08.Items_Details(1).feature
 
 ### ΛΑ-9
 
@@ -139,7 +139,7 @@
 
 * **Stability (3/5) :** Σχεδιαστικά να λαμβάνει υπόψιν την μελλοντική σύνδεση μέσω key-id, όπως είναι το Facebook Account, όπου πλέον οι χρήστες συνδέονται απευθείας και τα αιτούμενα στοιχεία στέλνονται αυτόματα. 
 
-* **User story: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/09.Registration(4).feature
+* **User story**: https://github.com/elefthcn/soft-eng-assignment1/blob/master/requirements/09.Registration(4).feature
 
 ### ΛΑ-10
 Οι χρήστες πρέπει να μπορούν να επικοινωνούν με το e-shop.
