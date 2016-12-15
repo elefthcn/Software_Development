@@ -346,27 +346,27 @@ O κεντρικός διαχειριστής θα έπρεπε να μπορε�
 
 * 1) Διάγραμμα Δραστηριοτήτων στο οποίο απεικονίζεται η διαδικασία δημιουργίας λογαριασμού χρήστη.
 
-![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity1.png)
+![Screenshot](UML-Diagrams/Activity Diagrams/Uml_Activity1.png)
 
 
 * 2) Διαγράμμα Δραστηριοτήτων κατά το οποίο υλοποιείται η είσοδος ενός χρήστη στο e-shop.
 
-![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity4.png)
+![Screenshot](UML-Diagrams/Activity Diagrams/Uml_Activity4.png)
 
 
 * 3) Διάγραμμα Δραστηριοτήτων στο οποίο παρουσιάζονται τα επιµέρους βήµατα που εκτελούνται για την αγορά ενός πίνακα από πελάτες.
 
-![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity2.png)
+![Screenshot](UML-Diagrams/Activity Diagrams/Uml_Activity2.png)
 
 
 * 4) Διάγραμμα Δραστηριοτήτων στο οποίο απεικονίζεται η διαδικασία αξιολόγησης του προϊόντος ή του e-shop γενικότερα. Αξίζει να σημειωθεί ότι σε αξιολόγηση μπορούν να προβούν μόνο οι χρήστες που είναι εγγεγραμμένοι, συνεπώς στο συγκεκριμένο διάγραμμα θεωρούμε δεδομένη την ύπαρξη λογαριασμού χρήστη.
 
-![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity3.png)
+![Screenshot](UML-Diagrams/Activity Diagrams/Uml_Activity3.png)
 
 
 * 5) Διάγραμμα Δραστηριοτήτων κατά το οποίο υλοποιείται η διαδικασία αναζήτησης ενός πίνακα. Επισημαίνεται ότι η διαδικασία εισόδου δεν είναι υποχρεωτική για την εκτέλεση αυτής της δραστηριότητας, συνεπώς δεν συμπεριλαμβάνεται στο παρακάτω διάγραμμα.
 
-![Screenshot](UML-Diagrams/Activity Diagrams StoryBoard/Uml_Activity5.png)
+![Screenshot](UML-Diagrams/Activity Diagrams/Uml_Activity5.png)
 
 
 ## Mockups:
