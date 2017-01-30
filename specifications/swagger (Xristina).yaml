@@ -5,7 +5,7 @@ info:
   description: |
     An API of an e-shop for Paintings, in the swagger-2.0 specification
   version: "0.0.1"
-  title: Swagger E-shop Urban Picaso
+  title: Swagger E-shop Urban Picasso
   contact:
     name: Eletheriou Christina, Petros Tanos
     email: xristinaele@hotmail.com
@@ -225,38 +225,26 @@ paths:
     post:
       description: Add a new painting to the e-shop
       operationId: addPainting
-      consumes:
-        - application/json
-        - application/xml
-      produces:
-        - application/json
-        - application/xml
       parameters:
         - in: body
           name: body
           description: Painting that needs to be added to the e-shop
           required: false
           schema:
-            $ref: "#/definitions/Painting"
+            $ref: "#/definitions/painting"
       responses:
         "405":
           description: Invalid input
     put:
       description: Update an existing painting
       operationId: updatePainting
-      consumes:
-        - application/json
-        - application/xml
-      produces:
-        - application/json
-        - application/xml
       parameters:
         - in: body
           name: body
           description: Painting that needs to be added to the e-shop
           required: false
           schema:
-            $ref: "#/definitions/Painting"
+            $ref: "#/definitions/painting"
       responses:
         "405":
           description: Validation exception
@@ -268,9 +256,6 @@ paths:
     get:
       description: Finds Paintings by Category
       operationId: findPaintBycategory
-      produces:
-        - application/json
-        - application/xml
       parameters:
         - in: query
           name: status
@@ -286,16 +271,13 @@ paths:
           schema:
             type: array
             items:
-              $ref: "#/definitions/Painting"
+              $ref: "#/definitions/painting"
         "400":
           description: Invalid Category value
   /painting/findByArtist:
     get:
       description: Finds Paintings by Artist
       operationId: findPaintsByArtist
-      produces:
-        - application/json
-        - application/xml
       parameters:
         - in: query
           name: tags
@@ -311,7 +293,7 @@ paths:
           schema:
             type: array
             items:
-              $ref: "#/definitions/Painting"
+              $ref: "#/definitions/painting"
         "400":
           description: Invalid Artist name
   /painting/{paintId}:
@@ -320,9 +302,6 @@ paths:
         - painting
       description: Find paint by ID/Name and returns a painting when the ID/Name is correct
       operationId: getPaintById
-      produces:
-        - application/json
-        - application/xml
       parameters:
         - in: path
           name: paintId
@@ -336,17 +315,12 @@ paths:
         "200":
           description: successful operation
           schema:
-            $ref: "#/definitions/Painting"
+            $ref: "#/definitions/painting"
         "400":
           description: Invalid ID supplied
     post:
       description: Updates a painting in the e-shop 
       operationId: updatePaint
-      consumes:
-        - application/x-www-form-urlencoded
-      produces:
-        - application/json
-        - application/xml
       parameters:
         - in: path
           name: paintId
@@ -370,9 +344,6 @@ paths:
     delete:
       description: Delete a Painting
       operationId: deletePaint
-      produces:
-        - application/json
-        - application/xml
       parameters:
         - in: header
           name: api_key
