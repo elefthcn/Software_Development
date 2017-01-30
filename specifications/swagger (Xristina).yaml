@@ -77,7 +77,6 @@ definitions:
       image:
         type: string
         description: Image URL containing the picture of the painting.
-  
 paths:
   /customers:
     get:
@@ -281,31 +280,9 @@ paths:
               $ref: "#/definitions/painting"
         "400":
           description: Invalid Category value
-  /painting/findByArtist:
-    get:
-      description: Finds Paintings by Artist
-      operationId: findPaintsByArtist
-      parameters:
-        - in: query
-          name: painId
-          description: Artist to filter by
-          required: false
-          type: array
-          items:
-            type: string
-          collectionFormat: multi
-      responses:
-        "200":
-          description: successful operation
-          schema:
-            type: array
-            items:
-              $ref: "#/definitions/painting"
-        "400":
-          description: Invalid Artist name
   /painting/findByPrice:
     get:
-      description: Finds Paintings by Price
+      description: Finds Paintings by Price 
       operationId: findPaintByPrice
       parameters:
         - in: query
@@ -324,4 +301,26 @@ paths:
             items:
               $ref: "#/definitions/painting"
         "400":
-          description: Invalid Price value
+          description: There are no paintings with that price
+  /painting/findByTittle:
+    get:
+      description: Finds Paintings by the Title 
+      operationId: findPaintByTitle
+      parameters:
+        - in: query
+          name: status
+          description: Title values that need to be considered for filter
+          required: false
+          type: array
+          items:
+            type: string
+          collectionFormat: multi
+      responses:
+        "200":
+          description: successful operation
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/painting"
+        "400":
+          description: The title not found
