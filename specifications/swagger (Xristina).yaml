@@ -258,13 +258,23 @@ paths:
           description: Painting not found
         "400":
           description: Invalid ID supplied
+    delete:
+      description: Delete a painting with a *paintId*
+      responses:
+        200:
+          description: Paint deleted 
+          schema:
+            $ref: "#/definitions/painting"
+        404:
+          description: Painting not found          
+          
   /painting/findByCategory:
     get:
       description: Finds Paintings by Category
       operationId: findPaintBycategory
       parameters:
         - in: query
-          name: status
+          name: category
           description: Category values that need to be considered for filter
           required: false
           type: array
@@ -286,7 +296,7 @@ paths:
       operationId: findPaintByPrice
       parameters:
         - in: query
-          name: status
+          name: price
           description: Price values that need to be considered for filter
           required: false
           type: array
@@ -308,7 +318,7 @@ paths:
       operationId: findPaintByTitle
       parameters:
         - in: query
-          name: status
+          name: title
           description: Title values that need to be considered for filter
           required: false
           type: array
@@ -324,3 +334,25 @@ paths:
               $ref: "#/definitions/painting"
         "400":
           description: The title not found
+  /painting/findByArtist:
+    get:
+      description: Finds Paintings by the Artist
+      operationId: findPaintByArtist
+      parameters:
+        - in: query
+          name: Artist
+          description: Artist values that need to be considered for filter
+          required: false
+          type: array
+          items:
+            type: string
+          collectionFormat: multi
+      responses:
+        "200":
+          description: successful operation
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/painting"
+        "400":
+          description: The Artist not found
