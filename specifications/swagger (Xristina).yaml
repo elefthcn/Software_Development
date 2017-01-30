@@ -280,7 +280,7 @@ paths:
       operationId: findPaintsByArtist
       parameters:
         - in: query
-          name: tags
+          name: painId
           description: Artist to filter by
           required: false
           type: array
@@ -297,9 +297,6 @@ paths:
         "400":
           description: Invalid Artist name
   /painting/{paintId}:
-    get:
-      tags:
-        - painting
       description: Find paint by ID/Name and returns a painting when the ID/Name is correct
       operationId: getPaintById
       parameters:
