@@ -127,15 +127,6 @@ paths:
             $ref: '#/definitions/customer'
         404:
           description: Customer not found
-    delete:
-      description: Delete a customer with *customerID*
-      responses:
-        200:
-          description: Customer deleted 
-          schema:
-            $ref: '#/definitions/customer'
-        404:
-          description: Customer not found
     put:
       description: Update a customer with *customerID*
       operationId: updateCustomer
@@ -153,6 +144,16 @@ paths:
             $ref: '#/definitions/customer'
         404:
           description: Customer not found  
+    delete:
+      description: Delete a customer with *customerID*
+      responses:
+        200:
+          description: Customer deleted 
+          schema:
+            $ref: '#/definitions/customer'
+        404:
+          description: Customer not found
+
   
   /customers/{customerName}:
     parameters:
@@ -195,6 +196,7 @@ paths:
             $ref: '#/definitions/customer'
         404:
           description: Customer not found  
+          
   /salesmen:
     get:
       description: Gets salesmen
@@ -226,7 +228,8 @@ paths:
             $ref: '#/definitions/newSalesman'
       responses:
         201:
-          description: Salesman created  
+          description: Salesman created
+          
   /painting:
     post:
       description: Add a new painting to the e-shop
